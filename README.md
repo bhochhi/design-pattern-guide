@@ -4,6 +4,38 @@ Variaous Design pattern can be categorized into three groups:
    
    * Singleton
    * Factory
+   * Abstract Factory
+   * Builder
+   * Prototype
+   *
 
 2. Structural
+   
+   * Adapter
+   * Bridge
+   * Composite
+   * Decorator
+   * Facade
+   * Flyweight
+   * Proxy
+   * MVC
+   * 
+   
 3. Behavioral
+   * Observer
+   * State
+   * Strategy
+   * Template
+   * Visitor
+   * Chain of responsibility
+   * Command
+   * Interpreter
+   * Iterator
+   * Mediator
+   * Mememto
+   * 
+   
+http://www.codeproject.com/Articles/29036/Patterns-in-Real-Life
+
+
+
