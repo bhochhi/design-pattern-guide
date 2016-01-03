@@ -35,6 +35,9 @@ Variaous Design pattern can be categorized into three groups:
    * Mememto
    * 
    
+
+[Domain driven design vs Data Driven Design]()
+
 http://www.codeproject.com/Articles/29036/Patterns-in-Real-Life
 http://file.allitebooks.com/20150625/Designing%20Data-Intensive%20Applications.pdf
 
