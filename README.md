@@ -1,39 +1,5 @@
-Variaous Design pattern can be categorized into three groups:
+[Variaous Design pattern can be categorized into three groups:]()
 
-1. Creational
-   
-   * Singleton
-   * Factory
-   * Abstract Factory
-   * Builder
-   * Prototype
-   *
-
-2. Structural
-   
-   * Adapter
-   * Bridge
-   * Composite
-   * Decorator
-   * Facade
-   * Flyweight
-   * Proxy
-   * MVC
-   * 
-   
-3. Behavioral
-   * Observer
-   * State
-   * Strategy
-   * Template
-   * Visitor
-   * Chain of responsibility
-   * Command
-   * Interpreter
-   * Iterator
-   * Mediator
-   * Mememto
-   * 
    
 ###[What is data driven development?](https://github.com/bhochhi/design-pattern-guide/wiki/What-is-data-driven-programming%3F) 
 
