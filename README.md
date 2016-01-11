@@ -1,4 +1,4 @@
-[Variaous Design pattern can be categorized into three groups:]()
+[Variaous Design pattern can be categorized into three groups:](https://github.com/bhochhi/design-pattern-guide/wiki/Variaous-Design-patterns)
 
    
 ###[What is data driven development?](https://github.com/bhochhi/design-pattern-guide/wiki/What-is-data-driven-programming%3F) 
