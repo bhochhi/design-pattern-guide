@@ -7,7 +7,9 @@ Development means design and program.
 
 ###[Domain driven design vs Data Driven Design]()
 
-Recently I was trying to reorganize my thoughts on various design approaches I have been practicing. One of them is Data-Driven Design. Sometime, 
+Most often I have use certain techniques and approaches without giving much thoughts to it, like what kind 
+
+Recently I was trying to reorganize my thoughts on various design approaches I have been practicing. One of them is Data-Driven Design. Most often, there were certain techniques that I apply 
 
 http://buytaert.net/the-future-of-software-is-data-driven 
 https://passwork.me/info/blog/applicationdesign
