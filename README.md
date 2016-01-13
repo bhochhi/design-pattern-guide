@@ -17,6 +17,8 @@ __DDD is not a silver bullet. When done sensibly, it's about taking a craftsman-
 
 If you practice object-oriented design, including the discipline of loose coupling, and you practice unit testing fairly religiously, and you mercilessly refactor code, and you work with domain experts while building your system, essentially you'll end up with a result that's basically what advocates of domain driven design are talking about.__
 
+DDD is a pragmatic approach to software development that can, over time, reduce the buildup of technical debt, and make your customers happier because you are able to speak the same language with each other, and deliver better-working solutions because of the advantages of understanding each other better.
+
 Recently I was trying to reorganize my thoughts on various design approaches I have been practicing. One of them is Data-Driven Design. Most often, there were certain techniques that I apply 
 
 http://buytaert.net/the-future-of-software-is-data-driven 
