@@ -9,6 +9,8 @@ Development means design and program.
 
 Most often I have use certain techniques and approaches without giving much thoughts to it, like what kind 
 
+__ The problems we wanted to solve needed different way of thinkings, that means a paradigm shift is needed to solve various problems. contexts, complexity are different for different problems. If you trying to solve all such problem using the same techniques, practices and patterns, you may end up with the solution but the path and process would be painful and complex and results to anti-pattern to reach the goal. All I am saying is its not good idea to try to solve all problems with the same set of mind, you need to develop different way of thinkings, which gives birth to various paradigms. Now, the problem is how to know what paradigm is better shoots to what kind of problems? __
+
 Recently I was trying to reorganize my thoughts on various design approaches I have been practicing. One of them is Data-Driven Design. Most often, there were certain techniques that I apply 
 
 http://buytaert.net/the-future-of-software-is-data-driven 
