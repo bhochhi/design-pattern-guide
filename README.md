@@ -15,7 +15,7 @@ __How to know which paradigm is choose? Depends upon what is required/problem an
 
 The most significant complexity of many application is not technical but it is in the domain itself, activities or business of the user.
 
-Primary focus of most software should be in domain and domain logic.
+Primary focus of most software should be in domain and domain logic. Starts with analyzing domain context, then modelling, then moving to OOP.
 
  
 __DDD is not a silver bullet. When done sensibly, it's about taking a craftsman-like approach to building software, and recognizing the need to reduce the cognitive friction between development teams and the businesses they are building software for. One of the most important practices is to have a layer in which the domain vocabulary used by the software team and the business team matches as closely as possible. You build this layer iteratively as you come to understand the business problem that you are trying to solve. When business logic is sensibly encoded in this layer, isolated from all the convoluted dependencies that enterprise applications typically have by factoring interactions with those systems out to interfaces, the language used in the actual domain layer eventually becomes fairly concise, obvious, and readable. When you review your model with the business, they will often correct you, and you gradually refactor to a deeper understanding of the domain.
