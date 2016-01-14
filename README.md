@@ -9,6 +9,7 @@ Development means design and program.
 
 Most often I have use certain techniques and approaches without giving much thoughts to it, like what kind 
 
+If you already have platform or framework defined which will be used to develop your application, you don't have to worry to much about what patterns or paradigms to use. the framework or language already dictates you to use one they are made for.
 
 Nicely, put thoughts. Gave me a good explanation with example but not the answer. May be that's the reality. We use all those techniques and tools but never put enough thoughts how such abstract thinking and when we try to do, guy like me get confused with all those jargons people has been using differently. May be compromise is what we need, instead of being dogmatic about certain practice, and as a result what you ended up is a solution that is simple, testable and within the budget and deadline. However, for me compromise, is also mean having anti patterns in my solution. But does that even a big deal? Honestly, I have never seen or done any real life project that doesn't have some sort of anti patterns based on definition of anti pattern. 
 
