@@ -3,6 +3,10 @@
    
 ###[What is data driven development?](https://github.com/bhochhi/design-pattern-guide/wiki/What-is-data-driven-programming%3F) 
 
+
+I kind of have general understand how one could practice Data driven Design for UX, But I am more focus how someone can do use data driven approach in SDLC and how its closely related to what programming paradigm or does it even dictates to use certain programming techniques like OOP or functional. 
+
+
 Development means design and program.
 
 ###[Domain driven design vs Data Driven Design]()
