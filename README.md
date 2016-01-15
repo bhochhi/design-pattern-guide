@@ -6,7 +6,9 @@
 Development means design and program.
 
 ###[Domain driven design vs Data Driven Design]()
-
+output = myfunc(input)
+vs.
+output = input.myfunc()
 Most often I have use certain techniques and approaches without giving much thoughts to it, like what kind 
 
 If you already have platform or framework defined which will be used to develop your application, you don't have to worry to much about what patterns or paradigms to use. the framework or language already dictates you to use one they are made for.
