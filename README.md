@@ -4,6 +4,9 @@
 ###[What is data driven development?](https://github.com/bhochhi/design-pattern-guide/wiki/What-is-data-driven-programming%3F) 
 
 
+
+
+
 Data driven design in Software Development.
 
 I kind of have good understanding how one could practice Data driven Design for better User experience. However, I don't know what this approach dictates the way you code, does it has any preference in term of programming paradigms or does it even dictates to use certain programming techniques like OOP or functional. 
@@ -17,10 +20,16 @@ Development means design and program.
 output = myfunc(input)
 vs.
 output = input.myfunc()
+
 Most often I have use certain techniques and approaches without giving much thoughts to it, like what kind 
 
 If you already have platform or framework defined which will be used to develop your application, you don't have to worry to much about what patterns or paradigms to use. the framework or language already dictates you to use one they are made for.
 
+
+
+In a data-centric design, the system is generally separated into objects based upon the data that they encapsulate. For example, in an e-commerce application you are likely to find objects that represent products, invoices, payments, and users. These objects provide methods which operate on that data, either returning its values, or mutating its state. A Product object might provide a method to determine how many of a given product are currently in stock, or possibly a method to add that product to the current shopping cart.
+
+Names for data-centric objects are often nouns, because they frequently correspond to real-world objects. This real-worldliness is generally also true of the methods that these objects provide. The methods either represent accessors to the object's data, relationships between objects, or actions that could be taken on the object. 
 Nicely, put thoughts. Gave me a good explanation with example but not the answer. May be that's the reality. We use all those techniques and tools but never put enough thoughts how such abstract thinking and when we try to do, guy like me get confused with all those jargons people has been using differently. May be compromise is what we need, instead of being dogmatic about certain practice, and as a result what you ended up is a solution that is simple, testable and within the budget and deadline. However, for me compromise, is also mean having anti patterns in my solution. But does that even a big deal? Honestly, I have never seen or done any real life project that doesn't have some sort of anti patterns based on definition of anti pattern. 
 
 __ The problems we wanted to solve needed different way of thinkings, that means a paradigm shift is needed to solve various problems. contexts, complexity are different for different problems. If you trying to solve all such problem using the same techniques, practices and patterns, you may end up with the solution but the path and process would be painful and complex, inconvinent and results to anti-pattern to reach the goal. All I am saying is its not good idea to try to solve all problems with the same set of mind, you need to develop different way of thinkings, which gives birth to various paradigms. Now, the problem is how to know what paradigm is better shoots to what kind of problems? __
