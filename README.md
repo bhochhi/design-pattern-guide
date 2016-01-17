@@ -1,6 +1,14 @@
 [Variaous Design pattern can be categorized into three groups:](https://github.com/bhochhi/design-pattern-guide/wiki/Variaous-Design-patterns)
 
    
+   
+
+
+Data driven programming/ Data oriented Programming all clear. Still seeking what data-driven-design associated with....
+
+
+   
+   
 ###[What is data driven development?](https://github.com/bhochhi/design-pattern-guide/wiki/What-is-data-driven-programming%3F) 
 
 
