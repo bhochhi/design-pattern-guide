@@ -1,7 +1,7 @@
 Command/Query Object Pattern
 ---
 
-
+http://stackoverflow.com/questions/17831623/why-query-object-design-pattern
 
 [Variaous Design pattern can be categorized into three groups:](https://github.com/bhochhi/design-pattern-guide/wiki/Variaous-Design-patterns)
 
