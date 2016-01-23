@@ -1,9 +1,9 @@
 Command/Query Object Pattern
 ---
 
-The idea is to abstract out the data interaction logic into separate layer so that other part of application does not have to deal with these complexities. Repository pattern gets us to their by encapsulating all related data
+The idea is to abstract out the data interaction logic into separate layer so that other part of application does not have to deal with these complexities. Repository pattern gets us to there by encapsulating all related data into seperate object. For instance if we have product concept in our application, the repository object that interact with datasource may have following requirements:
 
-With Repository pattern, We try to abstract out the data layer creating a class and encapsulating 
+
 
 http://stackoverflow.com/questions/17831623/why-query-object-design-pattern
 
