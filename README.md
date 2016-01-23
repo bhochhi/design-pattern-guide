@@ -6,6 +6,7 @@ The idea is to abstract out the data interaction logic into separate layer so th
 
 
 http://stackoverflow.com/questions/17831623/why-query-object-design-pattern
+https://coderkarl.wordpress.com/2012/05/02/the-query-object-pattern-2/
 
 [Variaous Design pattern can be categorized into three groups:](https://github.com/bhochhi/design-pattern-guide/wiki/Variaous-Design-patterns)
 
