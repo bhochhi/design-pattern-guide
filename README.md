@@ -11,9 +11,29 @@ public interface IProductRepository
     IEnumarable<Product> GeLeastLikeProducts();
 }
 ```
-This list of functions could grow fast based on requirements resulting thick repository object that is holding huge business logic. So, command/Query object pattern is about breaking down such repository class into granular object call query object which will be resposible to bring 
+This list of functions could grow quicky based on requirements resulting thick repository object that is holding huge business logic. So, command/Query object pattern is about breaking down such repository class into granular object call query object which will be resposible only for one set of data corresponding to one query. For instance, for the same product repository with three functions, there will be three Query Objects:
+
+```c#
+public interface IQuery{
+     IEnumarable<Product> Execute(Session session);
+}
 
 
+public class ProductByIdQuery : IQuery{
+     IEnumarable<Product> Execute(Session session){
+      return session....
+     }
+}
+
+public class MostLikeProductQuery : IQuery{
+      IEnumarable<Product> Execute(Session session);
+}
+
+public class LeastLikeProductQuery : IQuery{
+      IEnumarable<Product> Execute(Session session);
+}
+
+```
 
 
 
