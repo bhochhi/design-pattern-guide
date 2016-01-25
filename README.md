@@ -3,14 +3,15 @@ Command/Query Object Pattern
 
 The idea is to abstract out the data interaction logic into separate layer so that other part of application does not have to deal with these complexities. Repository pattern gets us to there by encapsulating all related data into seperate object. For instance if we have product concept in our application, the repository object that interact with datasource may look like this:
 
+```c#
 public interface IProductRepository
 {
     IEnumarable<Product> GetProductById(in id);
     IEnumarable<Product> GetMostLikeProducts();
     IEnumarable<Product> GeLeastLikeProducts();
 }
-
-and methods list can go on based on requirements. 
+```
+This list of functions could grow fast based on requirements resulting thick repository object that is holding huge business logic. So, command/Query object pattern is about breaking down such repository class into granular object call query object which will be resposible to bring 
 
 
 
