@@ -14,31 +14,31 @@ public interface IProductRepository
 This list of functions could grow quicky based on requirements resulting thick repository object that is holding huge business logic. So, command/Query object pattern is about breaking down such repository class into granular object call query object which will be resposible only for one set of data corresponding to one query. For instance, for the same product repository with three functions, there will be three Query Objects:
 
 ```c#
-public interface IQuery{
+public interface IProductQuery{
      IEnumarable<Product> Execute(Session session);
 }
 
 
-public class ProductByIdQuery : IQuery{
+public class ProductByIdQuery : IProductQuery{
      IEnumarable<Product> Execute(Session session){
       return session....
      }
 }
 
-public class MostLikeProductQuery : IQuery{
+public class MostLikedProductQuery : IProductQuery{
       IEnumarable<Product> Execute(Session session);
 }
 
-public class LeastLikeProductQuery : IQuery{
+public class LeastLikedProductQuery : IProductQuery{
       IEnumarable<Product> Execute(Session session);
 }
 
 ```
 
+Each of those query is given separate classification as it holds very important business logic. This pattern is test friendly and does one and only one thing in lieu of Single Responsibility Principle. 
 
 
-http://stackoverflow.com/questions/17831623/why-query-object-design-pattern
-https://coderkarl.wordpress.com/2012/05/02/the-query-object-pattern-2/
+
 
 [Variaous Design pattern can be categorized into three groups:](https://github.com/bhochhi/design-pattern-guide/wiki/Variaous-Design-patterns)
 
