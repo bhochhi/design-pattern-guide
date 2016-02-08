@@ -1,3 +1,8 @@
+Simplicity is not feature reduction
+---
+Simplifying a programming model does not reduce its functionality. Simplification merely hides the complex logic behind framework code or reusable components.In essence, it shifts complexity from one part of the system that needs explicit management by application developers to another part invisible to most developers. [1]()
+
+
 Command/Query Object Pattern
 ---
 
