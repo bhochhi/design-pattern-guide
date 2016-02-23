@@ -27,8 +27,6 @@ Lightening Thoughts
 
 
 
-
-http://www.codeproject.com/Articles/29036/Patterns-in-Real-Life
 http://file.allitebooks.com/20150625/Designing%20Data-Intensive%20Applications.pdf
 
 
