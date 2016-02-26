@@ -5,7 +5,9 @@ Clean code checklist
 * _In Clean Code, Bugs Cannot Hide_ Most software defects are introduced when changing existing code. The reason behind this is that the developer changing the code cannot fully grasp the effects of the changes made. Clean code minimises the risk of introducing defects by making the code as easy to understand as possible.
 * _Loose Coupling_ Two Classes, components or modules are coupled when at least one of them uses the other. The less these items know about each other, the looser they are coupled. A component that is only loosely coupled to its envionment can be easily changed or replaced than a strongly coupled component. 
 * _High Cohesion_ is the degree to which elements of a whole belong together. Methods and fields in a single class and classes of a component should have high cohesion. High cohesion in classes and components results in simpler, more easily understandable code structure and design.
-* _It is Easy to Remoe_ 
+* _Change is Local_ When a software system has to be maintained, extended and changed for a long time, keeping changes local reduces involved costs and risks. Keeping change local means that there are boundaries in the design which changes do not cross.
+* _It is Easy to Remove_ We normally build software by adding, extending or changing features. However removing elements is important so that the overall design can be kept as simple as possible. When a block gets too complicated, it has to be removed and replaced with one or more simpler blocks. 
+* 
 
 
 
