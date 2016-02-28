@@ -1,9 +1,9 @@
 Clean code checklist
 ---
 
-|Goods|Bads|
-|---|----|
-|Code is clean if it can be understood easily by everyone on the team. With Understandability comes readability, changeability, extensibility and maintability. All the things needed to keep a project going over a long time without accumulating up a large amount of technical debt.|*******|
+|Do|Don't|
+|---|---|
+|Code is clean if it can be understood easily by everyone on the team. With Understandability comes readability, changeability, extensibility and maintability. All the things needed to keep a project going over a long time without accumulating up a large amount of technical debt.|_Rigidity_ The software is difficult to change. A small causes |
 |Writing clean code from the start in a project is an investment in keeping the Cost of Change(CoC) as constant as possible throughout the lifecycle of a software product. Building the house analogy applies here. If you spend little more initaially during the fundation, your maintenance cost will be less compare to house that were built quick and dirty.|***********|
 | _In Clean Code, Bugs Cannot Hide_ Most software defects are introduced when changing existing code. The reason behind this is that the developer changing the code cannot fully grasp the effects of the changes made. Clean code minimises the risk of introducing defects by making the code as easy to understand as possible.|******|
 | _Loose Coupling_ Two Classes, components or modules are coupled when at least one of them uses the other. The less these items know about each other, the looser they are coupled. A component that is only loosely coupled to its envionment can be easily changed or replaced than a strongly coupled component.|*******|
