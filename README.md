@@ -14,6 +14,9 @@ __Code Smells when__
 * _Rigidity_ The software is difficult to change. A small change causes cascade of subsequent changes.
 * _Fragility_ The software breaks in many places due to a single change.
 * _Immobility_ You can't use part of the code in other project because of involved risk and high effort.
+* _Viscosity of Environment_ Building, testing and other tasks take a long time. Therefore, these activities are not executed properly by everyone and technical debt is introduced.
+* _Needless Repetition_ Code contains lots of code duplication: exact code duplications or design duplicates(doing the same thing in a different way). Making a change to a duplicated of code is more expensive and more error-prone because the change has to be made in several places with the risk that one place is not changed accordingly.
+* _Opacity_ The code is hard to understand. Therefore, any change takes additional time to first reengineer the code and is more likely to result in defects due to not understanding the side effects.
 
 
 Lightening Thoughts
