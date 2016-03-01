@@ -5,6 +5,9 @@ Clean code checklist
 * Code is clean if it can be understood easily by everyone on the team. With Understandability comes readability, changeability, extensibility and maintability. All the things needed to keep a project going over a long time without accumulating up a large amount of technical debt.
 * Writing clean code from the start in a project is an investment in keeping the Cost of Change(CoC) as constant as possible throughout the lifecycle of a software product. Building the house analogy applies here. If you spend little more initaially during the fundation, your maintenance cost will be less compare to house that were built quick and dirty.
 * _In Clean Code, Bugs Cannot Hide_ Most software defects are introduced when changing existing code. The reason behind this is that the developer changing the code cannot fully grasp the effects of the changes made. Clean code minimises the risk of introducing defects by making the code as easy to understand as possible.
+
+__Principles__
+
 *  _Loose Coupling_ Two Classes, components or modules are coupled when at least one of them uses the other. The less these items know about each other, the looser they are coupled. A component that is only loosely coupled to its envionment can be easily changed or replaced than a strongly coupled component.
 *  _High Cohesion_ is the degree to which elements of a whole belong together. Methods and fields in a single class and classes of a component should have high cohesion. High cohesion in classes and components results in simpler, more easily understandable code structure and design.
 *  _Change is Local_ When a software system has to be maintained, extended and changed for a long time, keeping changes local reduces involved costs and risks. Keeping change local means that there are boundaries in the design which changes do not cross.
@@ -17,6 +20,19 @@ __Code Smells when__
 * _Viscosity of Environment_ Building, testing and other tasks take a long time. Therefore, these activities are not executed properly by everyone and technical debt is introduced.
 * _Needless Repetition_ Code contains lots of code duplication: exact code duplications or design duplicates(doing the same thing in a different way). Making a change to a duplicated of code is more expensive and more error-prone because the change has to be made in several places with the risk that one place is not changed accordingly.
 * _Opacity_ The code is hard to understand. Therefore, any change takes additional time to first reengineer the code and is more likely to result in defects due to not understanding the side effects.
+
+__Class Design__
+* _Single Responsibility Principles (SRP)_ A class should have one, and only one, reason to change.
+* _Open Closed Principle(OCP)_ You should be able to extend a classes behaviour without modifying it.
+* _Liskov Substitution Principle(LSP)_ Derived classes must be substitutable for their base classes.
+* _Dependency Inversion Principle(DIP)_ Depends on abstraction, not on concretions.
+* _Interface Segregation Priciple(ISP)_ Make find grained interfaces that are client-specific.
+* _Classes should be small_ Smaller classes are easier to grasp. Classes should be smaller than about 100 lines of code, Otherwise, it is hard to spot how the class does its job and it probably does more than a single job.
+
+__Package Cohesion__
+* _Release Reuse Equivalency Principle(RREP)_ The granule of reuse is the granule of release.
+* _Common Closure Principle_
+
 
 
 Lightening Thoughts
