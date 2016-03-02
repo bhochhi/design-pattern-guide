@@ -3,6 +3,8 @@ Clean code checklist
 
 
 * Code is clean if it can be understood easily by everyone on the team. With Understandability comes readability, changeability, extensibility and maintability. All the things needed to keep a project going over a long time without accumulating up a large amount of technical debt.
+![](https://github.com/bhochhi/design-pattern-guide/blob/master/why-clean-code.png)
+
 * Writing clean code from the start in a project is an investment in keeping the Cost of Change(CoC) as constant as possible throughout the lifecycle of a software product. Building the house analogy applies here. If you spend little more initaially during the fundation, your maintenance cost will be less compare to house that were built quick and dirty.
 * _In Clean Code, Bugs Cannot Hide_ Most software defects are introduced when changing existing code. The reason behind this is that the developer changing the code cannot fully grasp the effects of the changes made. Clean code minimises the risk of introducing defects by making the code as easy to understand as possible.
 
@@ -31,7 +33,8 @@ __Class Design__
 
 __Package Cohesion__
 * _Release Reuse Equivalency Principle(RREP)_ The granule of reuse is the granule of release.
-* _Common Closure Principle_
+* _Common Closure Principle_ Classes that changes together are packaged together.
+* _Common Reuse Principle_ Classes that are used together are packaged together.
 
 
 
