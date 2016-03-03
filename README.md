@@ -36,6 +36,11 @@ __Package Cohesion__
 * _Common Closure Principle_ Classes that changes together are packaged together.
 * _Common Reuse Principle_ Classes that are used together are packaged together.
 
+__Package Coupling__
+* _Acyclic Dependencies Principle(ADP)_ The dependency graph of packages must have no cycles. 
+* _Stable Dependencies Priciple(SDP)_ Depend in the direction of stability.
+* _Stable Abstractions Principle(SAP)_ Abstractness increses with stability.
+
 
 
 Lightening Thoughts
