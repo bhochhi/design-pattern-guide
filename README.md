@@ -40,6 +40,13 @@ __Package Coupling__
 * _Acyclic Dependencies Principle(ADP)_ The dependency graph of packages must have no cycles. 
 * _Stable Dependencies Priciple(SDP)_ Depend in the direction of stability.
 * _Stable Abstractions Principle(SAP)_ Abstractness increses with stability.
+* 
+__General__
+* _Follow Standard Convention_ Coding-, architecture-, design guidelines( check them with tools).
+* _Keep it Simple, Stupid (KISS)_ Simpler is always better. Reduce complexity as much as possible.
+* _Boy Scout Rule_ Leave the campground cleaner then you found it.
+* _Root Cause Analysis_ Always look for the root cause of problem. Otherwise, it will get you again and again.
+*
 
 
 
