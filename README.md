@@ -46,7 +46,12 @@ __General__
 * _Keep it Simple, Stupid (KISS)_ Simpler is always better. Reduce complexity as much as possible.
 * _Boy Scout Rule_ Leave the campground cleaner then you found it.
 * _Root Cause Analysis_ Always look for the root cause of problem. Otherwise, it will get you again and again.
-*
+* _Overridden Safeties_ Do not override warnings, errors, exception handling - they will catch you.
+
+__Dependency Injection_
+* _Decouple Contruction from Runtime_ Decoupling the contruction phase completely from runtime helps to simplify the runtime behaviour.
+* 
+
 
 
 
