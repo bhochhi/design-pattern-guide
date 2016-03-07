@@ -50,7 +50,10 @@ __General__
 
 __Dependency Injection_
 * _Decouple Contruction from Runtime_ Decoupling the contruction phase completely from runtime helps to simplify the runtime behaviour.
-* 
+
+__Design__
+* _Keep Configurable Data at High Levels_ If you have a contstant such as default or configuration value that is known and expected at high level of abstraction, do not bury it in a low-level function. Expose it as an argument to the low-level function called from the high-level function
+* _Don't be Arbitrary_
 
 
 
