@@ -53,7 +53,11 @@ __Dependency Injection_
 
 __Design__
 * _Keep Configurable Data at High Levels_ If you have a contstant such as default or configuration value that is known and expected at high level of abstraction, do not bury it in a low-level function. Expose it as an argument to the low-level function called from the high-level function
-* _Don't be Arbitrary_
+* _Don't be Arbitrary_ Have a reason for the way you structure your code, and make sure that reason is communicated by the structure of the code. If a structure appears arbitary, other will feel empowered to change it.
+* _Structure over Convention_ Enforce design decisions with structure over convention. Naming conventions are good, but they are inferior to structures that force compliance.
+* _Be Precise_ When you make a decision in your code, make sure you make it precisely. Know why you have made it and how you will deal with any exception.
+* _Prefer Polymorphism To If/Else or Switch/Case_ 
+
 
 
 
