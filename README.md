@@ -48,7 +48,7 @@ __General__
 * _Root Cause Analysis_ Always look for the root cause of problem. Otherwise, it will get you again and again.
 * _Overridden Safeties_ Do not override warnings, errors, exception handling - they will catch you.
 
-__Dependency Injection_
+__Dependency Injection__
 * _Decouple Contruction from Runtime_ Decoupling the contruction phase completely from runtime helps to simplify the runtime behaviour.
 
 __Design__
@@ -56,7 +56,7 @@ __Design__
 * _Don't be Arbitrary_ Have a reason for the way you structure your code, and make sure that reason is communicated by the structure of the code. If a structure appears arbitary, other will feel empowered to change it.
 * _Structure over Convention_ Enforce design decisions with structure over convention. Naming conventions are good, but they are inferior to structures that force compliance.
 * _Be Precise_ When you make a decision in your code, make sure you make it precisely. Know why you have made it and how you will deal with any exception.
-* _Prefer Polymorphism To If/Else or Switch/Case_ 
+* _Prefer Polymorphism To If/Else or Switch/Case_ "ONE SWITCH": There may be no more than one switch statement for a given type of selection. There cases in that switch statement must create polymorphic objects that take the place of other such switch statements in the rest of the system.
 
 
 
