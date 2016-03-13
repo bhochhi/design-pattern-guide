@@ -57,6 +57,8 @@ __Design__
 * _Structure over Convention_ Enforce design decisions with structure over convention. Naming conventions are good, but they are inferior to structures that force compliance.
 * _Be Precise_ When you make a decision in your code, make sure you make it precisely. Know why you have made it and how you will deal with any exception.
 * _Prefer Polymorphism To If/Else or Switch/Case_ "ONE SWITCH": There may be no more than one switch statement for a given type of selection. There cases in that switch statement must create polymorphic objects that take the place of other such switch statements in the rest of the system.
+* _Symmetry/Analogy_ Favour symmetric designs(e.g. Load-Save) and design that follow analogies.
+* _Separate Multi-Threading Code_ Do not mix code that handles multi-threading aspects with the rest of the code. Separate them into different classes.
 
 
 
