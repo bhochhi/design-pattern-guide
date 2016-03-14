@@ -59,6 +59,10 @@ __Design__
 * _Prefer Polymorphism To If/Else or Switch/Case_ "ONE SWITCH": There may be no more than one switch statement for a given type of selection. There cases in that switch statement must create polymorphic objects that take the place of other such switch statements in the rest of the system.
 * _Symmetry/Analogy_ Favour symmetric designs(e.g. Load-Save) and design that follow analogies.
 * _Separate Multi-Threading Code_ Do not mix code that handles multi-threading aspects with the rest of the code. Separate them into different classes.
+* _Misplaced Responsibility_ Something put in the wrong place.
+* _Code at Wrong Level of Abstraction_ Functionalities are at wrong level of abstraction.
+* _Fields not defining State_ Fields holding data that does not belong to the state of the instance but are used to hold temporary data. Use local variables or extract to a class abstracting the perfomed action. 
+* 
 
 
 
