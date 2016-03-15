@@ -62,7 +62,7 @@ __Design__
 * _Misplaced Responsibility_ Something put in the wrong place.
 * _Code at Wrong Level of Abstraction_ Functionalities are at wrong level of abstraction.
 * _Fields not defining State_ Fields holding data that does not belong to the state of the instance but are used to hold temporary data. Use local variables or extract to a class abstracting the perfomed action. 
-* 
+* _Over Configurability_ Prevent configuration just for the sake of it - or because nobody can decide how it should be. Otherwise, this will result in overly complex, unstable systems.
 
 
 
