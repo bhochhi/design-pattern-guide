@@ -63,6 +63,11 @@ __Design__
 * _Code at Wrong Level of Abstraction_ Functionalities are at wrong level of abstraction.
 * _Fields not defining State_ Fields holding data that does not belong to the state of the instance but are used to hold temporary data. Use local variables or extract to a class abstracting the perfomed action. 
 * _Over Configurability_ Prevent configuration just for the sake of it - or because nobody can decide how it should be. Otherwise, this will result in overly complex, unstable systems.
+* _Micro Layers_ Do not add functionality on top, but simplify overall.
+
+__Dependencies__
+* _Make Logical Dependencies Physical_ If one module depends upon another, that dependency should be physical, no just logical. Don't make assumptions. 
+* _Singletons / Service Locator_ Use dependency injection, Singletons hide dependencies.
 
 
 
