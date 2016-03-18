@@ -6,6 +6,7 @@ __Dependencies__
 * _Singletons / Service Locator_ Use dependency injection, Singletons hide dependencies.
 * _Base classes Depending On their derivatives_ Base classes should work with any derived class.
 * _Too Much Information_ Minimise interface to minimise coupling
+* _Feature Envy_ The methods of a class should be interested in the variables and functions of the class they belong to, and not the variables and functions of other classes. When a method uses accesssors and mutators of some other object to manipulate the data within that object, then it envies the scope of the class of that other object. It wishes that it were inside that other class so that it could have direct access to the variables it is manipulating.
 * 
 
 
