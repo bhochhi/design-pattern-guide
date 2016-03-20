@@ -9,7 +9,11 @@ __Dependencies__
 * _Feature Envy_ The methods of a class should be interested in the variables and functions of the class they belong to, and not the variables and functions of other classes. When a method uses accesssors and mutators of some other object to manipulate the data within that object, then it envies the scope of the class of that other object. It wishes that it were inside that other class so that it could have direct access to the variables it is manipulating.
 * _Artificial Coupling_ Things that don't depend upon each other should not be artificially coupled.
 * _Hidden Temporal Coupling_ If, for example, the order of some method calls is important, then make sure that they cannot be called in the wrong order.
-* 
+* _Transitive Navigation_ Aka Law of Demeter, writing shy code. A module should know only its direct dependencies.
+
+
+__Naming__
+* _Choose Descriptive / Unambiguous Names_
 
 A
 
