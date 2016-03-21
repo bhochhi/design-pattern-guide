@@ -13,7 +13,9 @@ __Dependencies__
 
 
 __Naming__
-* _Choose Descriptive / Unambiguous Names_
+* _Choose Descriptive / Unambiguous Names_ Names have to reflect what a variable, field, property stands for. Names have to be precise.
+* _Choose Names at Appropriate Level of Abstraction_ Choose names that reflect the level of abstraction of the class or method you are working in.
+* 
 
 A
 
