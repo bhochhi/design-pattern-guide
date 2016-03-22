@@ -15,7 +15,11 @@ __Dependencies__
 __Naming__
 * _Choose Descriptive / Unambiguous Names_ Names have to reflect what a variable, field, property stands for. Names have to be precise.
 * _Choose Names at Appropriate Level of Abstraction_ Choose names that reflect the level of abstraction of the class or method you are working in.
-* 
+* _Name Interfaces After Functionality They Abstract_ The name of an interface should be derived from its usage by the client.
+* _Name Classes After How They Implement Their Interfaces_ The name of a class should reflect how it fulfils the functionality provided by its interface(s).
+* _Name Method After What They Do_ The name of the method should describe what is done, not how it is done.
+* _Use Long Names for Long Scopes_
+* _Names Decribe Side Effects_
 
 A
 
