@@ -19,7 +19,13 @@ __Naming__
 * _Name Classes After How They Implement Their Interfaces_ The name of a class should reflect how it fulfils the functionality provided by its interface(s).
 * _Name Method After What They Do_ The name of the method should describe what is done, not how it is done.
 * _Use Long Names for Long Scopes_
-* _Names Decribe Side Effects_
+* _Names Decribe Side Effects_ Names have to reflect the entire functionality
+* _Standard Namenclature Where Possible_ Don't invent your own language when there is a standard.
+* _Encodings in Names_ No prefixes, no type/scope information
+
+__Understandability__
+* _Consistency_ If you do something a certain way, do all similar things in the same way: same variable name for same concepts, same naming pattern for corresponding concepts.
+* 
 
 A
 
