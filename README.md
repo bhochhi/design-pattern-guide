@@ -27,6 +27,9 @@ __Understandability__
 * _Consistency_ If you do something a certain way, do all similar things in the same way: same variable name for same concepts, same naming pattern for corresponding concepts.
 * _Use Explanatory Variables_ Use locals to give steps in algorithms names.
 * _Encapsulate Boundary Conditions_ Boundary conditions are hard to keep track of. Put the processing of them in one place.
+* _Prefer Dedicated Value Objects to Primitives Types_ Instead of passing primitives types, use dedicated primitive types.
+* _Poorly Written Comment_ Comment does not add any value(redundant to code), is not well formed not correct grammer/spelling.
+* 
 
 A
 
