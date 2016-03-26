@@ -29,7 +29,12 @@ __Understandability__
 * _Encapsulate Boundary Conditions_ Boundary conditions are hard to keep track of. Put the processing of them in one place.
 * _Prefer Dedicated Value Objects to Primitives Types_ Instead of passing primitives types, use dedicated primitive types.
 * _Poorly Written Comment_ Comment does not add any value(redundant to code), is not well formed not correct grammer/spelling.
-* 
+* _Obivious Behaviour is Unimplemented_ Violations of "the Principle of Least Astonishment". What you expect is what you get.
+* _Hidden Logical Dependency_ A method can only work when invoked correctly depending on something else in the same class.
+
+
+__Methods__
+* _Methods Shound Do One Thing_ Loops, exception handling, --- encapsulate in sub-methods.
 
 A
 
