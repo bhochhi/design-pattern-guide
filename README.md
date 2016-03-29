@@ -37,6 +37,7 @@ __Methods__
 * _Methods Shound Do One Thing_ Loops, exception handling, ...encapsulate in sub-methods.
 * _Methods Should Descend 1 Level of Abstraction_ The statements within a method should all be written at the same level of abstraction, which should be one level below the operation described by the name of the function.
 * _Method with Too Many Arguments_ Prefer fewer arguments. Maybe functionality can be outsourced to a dedicated class that holds the information in fields.
+* _Method with Out/Ref Arguments_ Preven usage. Return complex object holding all values, split into several method. If your method must change the state of something, have it change the state of the object it is called on.
 
 A
 
