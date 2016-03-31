@@ -39,7 +39,14 @@ __Methods__
 * _Method with Too Many Arguments_ Prefer fewer arguments. Maybe functionality can be outsourced to a dedicated class that holds the information in fields.
 * _Method with Out/Ref Arguments_ Preven usage. Return complex object holding all values, split into several method. If your method must change the state of something, have it change the state of the object it is called on.
 * _Selector / Flag Arguments_ public int Foo(bool flag). Split method into several independent methods that can be called from client without the flag.
-* 
+* _Inappropriate Static_ Static method that should be an instance method.
+
+__Source Code Structure__
+* _Vertical Separation_ Variables and methods should be defined close to where they are used. Local variables should be declared just above their usage and should have small vertical scope.
+* _Nesting_ Nested code should be more specific or handle less probable scenarios than unnested code.
+
+
+
 
 A
 
