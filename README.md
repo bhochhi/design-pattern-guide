@@ -46,6 +46,12 @@ __Source Code Structure__
 * _Nesting_ Nested code should be more specific or handle less probable scenarios than unnested code.
 * _Structure Code into Namespaces by Future_ Keep everything belonging to the same feature together. Don't use namespaces communicating layers. A feature may use another feature; a business feature may use a core feature like logging.
 
+__Conditionals__
+* _Encapsulate Conditionals_ If(this.ShouldBeDeleted(timer)) is preferable to if(timer.HasExpired && !timer.IsRecurrent).
+* _Positive Conditionals_ Positive Conditionals are easier to read than negative conditionals
+
+__Useless Stuff__
+* _Dead Comment, Code_ 
 
 
 
