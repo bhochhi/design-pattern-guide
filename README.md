@@ -44,6 +44,7 @@ __Methods__
 __Source Code Structure__
 * _Vertical Separation_ Variables and methods should be defined close to where they are used. Local variables should be declared just above their usage and should have small vertical scope.
 * _Nesting_ Nested code should be more specific or handle less probable scenarios than unnested code.
+* _Structure Code into Namespaces by Future_ Keep everything belonging to the same feature together. Don't use namespaces communicating layers. A feature may use another feature; a business feature may use a core feature like logging.
 
 
 
