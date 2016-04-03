@@ -51,7 +51,7 @@ __Conditionals__
 * _Positive Conditionals_ Positive Conditionals are easier to read than negative conditionals
 
 __Useless Stuff__
-* _Dead Comment, Code_ 
+* _Dead Comment, Code_ Delete unused things, you can find them in your version control systems.
 
 
 
