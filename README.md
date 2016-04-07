@@ -52,6 +52,13 @@ __Conditionals__
 
 __Useless Stuff__
 * _Dead Comment, Code_ Delete unused things, you can find them in your version control systems.
+* _Clutter_ Code that is not dead but does not add any functionality.
+* _Inappropriate Information_ Comment holding information better held in a different kind of system: product backlog, Source control. Use code comments for technical notes only.
+
+__Maintainability Killers__
+* _Duplication_ Eliminate Duplication. Violation of the Don't repeat yourself (DRY) principle.
+* _Magic Numbers / Strings_ Replace Magic Numbers and Strings with named constants to give them a meaningful name when meaning cannot be derived from the value itself. 
+* _Enums (Persistent
 
 
 
