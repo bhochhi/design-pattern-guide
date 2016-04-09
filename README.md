@@ -59,8 +59,10 @@ __Maintainability Killers__
 * _Duplication_ Eliminate Duplication. Violation of the Don't repeat yourself (DRY) principle.
 * _Magic Numbers / Strings_ Replace Magic Numbers and Strings with named constants to give them a meaningful name when meaning cannot be derived from the value itself. 
 * _Enums (Persistent or Defining Behaviour)_ Use reference codes instead of enums if they have to be persisted. Use polymorphism instead of enums if they define behaviour. 
-* 
 
+__Exception Handling__
+* _Catch Specific Exceptions_ Catch exceptions as specific as possible. Catch only the exceptions for which you can react in a meaningful manner.
+* 
 
 
 A
