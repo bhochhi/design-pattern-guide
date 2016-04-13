@@ -79,7 +79,7 @@ Lightening Thoughts
 *  
 
 
-
+#####[The Flyweight Pattern](https://dzone.com/articles/the-flyweight-pattern?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava)
 
 
 ###[Variaous Design pattern can be categorized into three groups:](https://github.com/bhochhi/design-pattern-guide/wiki/Various-Design-patterns)
