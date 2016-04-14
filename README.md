@@ -63,6 +63,9 @@ __Maintainability Killers__
 __Exception Handling__
 * _Catch Specific Exceptions_ Catch exceptions as specific as possible. Catch only the exceptions for which you can react in a meaningful manner.
 * _Catch Where You can React in Meaningful Way_ Only catch exceptions when you can react in a meaningful way, Otherwise, let someone up in the call stact react to it.
+* _Use Exceptions instead of Return Codes of null_ In an exceptional case, throw an exception when your method cannot do its job. Don't accept or return null. Don't return error codes.
+
+ 
 
 
 A
