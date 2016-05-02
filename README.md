@@ -64,6 +64,7 @@ __Exception Handling__
 * _Catch Specific Exceptions_ Catch exceptions as specific as possible. Catch only the exceptions for which you can react in a meaningful manner.
 * _Catch Where You can React in Meaningful Way_ Only catch exceptions when you can react in a meaningful way, Otherwise, let someone up in the call stact react to it.
 * _Use Exceptions instead of Return Codes of null_ In an exceptional case, throw an exception when your method cannot do its job. Don't accept or return null. Don't return error codes.
+* _Fail Fast_ Exceptions should be thrown as early as possible after detecting an exceptional case. This helps to pinpoint the exact location of the problem by looking at the stack trace of the exception.
 
  
 [programming principles](http://webpro.github.io/programming-principles)
