@@ -95,7 +95,7 @@ Lightening Thoughts
 ###[Data driven Design?](https://github.com/bhochhi/design-pattern-guide/wiki/data-driven-design) 
 
 
-
+####[Architecture and Design guide](http://www.tutorialspoint.com/software_architecture_design/)
 
 
 
