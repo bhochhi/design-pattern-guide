@@ -68,6 +68,9 @@ __Exception Handling__
 * _Using Exceptions for Control Flow_ Using Exceptions for control flow: has bad performance. is hard to understand and results in very hard handling of real execptional cases.
 * _Swallowing Exceptions_ Exceptions can be swallowed only if the exceptional case is completely resolved after leaving the catch block. Otherwise, the system is left in an inconsistent state.
 
+**From Legacy Code to Clean Code**
+* _Always have a Running System_ Change your system in small steps, from a running state to a running state.
+
  
 [programming principles](http://webpro.github.io/programming-principles)
 
