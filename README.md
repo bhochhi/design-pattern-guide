@@ -70,6 +70,7 @@ __Exception Handling__
 
 **From Legacy Code to Clean Code**
 * _Always have a Running System_ Change your system in small steps, from a running state to a running state.
+* _Idently _
 
  
 [programming principles](http://webpro.github.io/programming-principles)
