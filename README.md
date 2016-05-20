@@ -72,6 +72,7 @@ __Exception Handling__
 * _Always have a Running System_ Change your system in small steps, from a running state to a running state.
  1. _Identify Features_ Identify the existing features in your code and priortise them according to how relevant they are for future development(likelihood and risk of change). 
  2. _Introduce Boundary Interfaces for Testability_ Refactor the boundaries of your system to interfaces so that you can  simulate the environment with test doubles(fakes, mocks, stubs, simulators).
+ 3. _Write Feature Acceptance Tests_ Cover the feature with Acceptance Tests to establish a safety net for refactoring. 
 
  
 [programming principles](http://webpro.github.io/programming-principles)
