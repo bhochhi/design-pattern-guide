@@ -1,5 +1,6 @@
 
-[Microservice design pattern](http://blog.arungupta.me/microservice-design-patterns/)
+- [Microservice design pattern](http://blog.arungupta.me/microservice-design-patterns/)
+- [Property Modeling](https://martinfowler.com/apsupp/properties.pdf) [example](https://github.com/iluwatar/java-design-patterns/tree/master/abstract-document) . 
 
 [Clean code checklist](https://github.com/bhochhi/design-pattern-guide/wiki/clean-code-checklist)
 ---
