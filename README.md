@@ -1,89 +1,13 @@
+#### [Notes from Software-Architectur: Foundations, Theory and Practice](https://github.com/bhochhi/design-pattern-guide/wiki/Software-Architecture:-Foundations,-Theory,-and-Practice)
+- 
 
-- [Microservice design pattern](http://blog.arungupta.me/microservice-design-patterns/)
-- [Property Modeling](https://martinfowler.com/apsupp/properties.pdf) [example](https://github.com/iluwatar/java-design-patterns/tree/master/abstract-document) . 
+#### [Microservice design pattern](http://blog.arungupta.me/microservice-design-patterns/)
+#### [Property Modeling](https://martinfowler.com/apsupp/properties.pdf) [example](https://github.com/iluwatar/java-design-patterns/tree/master/abstract-document) . 
 
-[Clean code checklist](https://github.com/bhochhi/design-pattern-guide/wiki/clean-code-checklist)
----
-
-__Dependencies__
-* _Make Logical Dependencies Physical_ If one module depends upon another, that dependency should be physical, no just logical. Don't make assumptions. 
-* _Singletons / Service Locator_ Use dependency injection, Singletons hide dependencies.
-* _Base classes Depending On their derivatives_ Base classes should work with any derived class.
-* _Too Much Information_ Minimise interface to minimise coupling
-* _Feature Envy_ The methods of a class should be interested in the variables and functions of the class they belong to, and not the variables and functions of other classes. When a method uses accesssors and mutators of some other object to manipulate the data within that object, then it envies the scope of the class of that other object. It wishes that it were inside that other class so that it could have direct access to the variables it is manipulating.
-* _Artificial Coupling_ Things that don't depend upon each other should not be artificially coupled.
-* _Hidden Temporal Coupling_ If, for example, the order of some method calls is important, then make sure that they cannot be called in the wrong order.
-* _Transitive Navigation_ Aka Law of Demeter, writing shy code. A module should know only its direct dependencies.
-
-
-__Naming__
-* _Choose Descriptive / Unambiguous Names_ Names have to reflect what a variable, field, property stands for. Names have to be precise.
-* _Choose Names at Appropriate Level of Abstraction_ Choose names that reflect the level of abstraction of the class or method you are working in.
-* _Name Interfaces After Functionality They Abstract_ The name of an interface should be derived from its usage by the client.
-* _Name Classes After How They Implement Their Interfaces_ The name of a class should reflect how it fulfils the functionality provided by its interface(s).
-* _Name Method After What They Do_ The name of the method should describe what is done, not how it is done.
-* _Use Long Names for Long Scopes_
-* _Names Decribe Side Effects_ Names have to reflect the entire functionality
-* _Standard Namenclature Where Possible_ Don't invent your own language when there is a standard.
-* _Encodings in Names_ No prefixes, no type/scope information
-
-__Understandability__
-* _Consistency_ If you do something a certain way, do all similar things in the same way: same variable name for same concepts, same naming pattern for corresponding concepts.
-* _Use Explanatory Variables_ Use locals to give steps in algorithms names.
-* _Encapsulate Boundary Conditions_ Boundary conditions are hard to keep track of. Put the processing of them in one place.
-* _Prefer Dedicated Value Objects to Primitives Types_ Instead of passing primitives types, use dedicated primitive types.
-* _Poorly Written Comment_ Comment does not add any value(redundant to code), is not well formed not correct grammer/spelling.
-* _Obivious Behaviour is Unimplemented_ Violations of "the Principle of Least Astonishment". What you expect is what you get.
-* _Hidden Logical Dependency_ A method can only work when invoked correctly depending on something else in the same class.
-
-
-__Methods__
-* _Methods Shound Do One Thing_ Loops, exception handling, ...encapsulate in sub-methods.
-* _Methods Should Descend 1 Level of Abstraction_ The statements within a method should all be written at the same level of abstraction, which should be one level below the operation described by the name of the function.
-* _Method with Too Many Arguments_ Prefer fewer arguments. Maybe functionality can be outsourced to a dedicated class that holds the information in fields.
-* _Method with Out/Ref Arguments_ Preven usage. Return complex object holding all values, split into several method. If your method must change the state of something, have it change the state of the object it is called on.
-* _Selector / Flag Arguments_ public int Foo(bool flag). Split method into several independent methods that can be called from client without the flag.
-* _Inappropriate Static_ Static method that should be an instance method.
-
-__Source Code Structure__
-* _Vertical Separation_ Variables and methods should be defined close to where they are used. Local variables should be declared just above their usage and should have small vertical scope.
-* _Nesting_ Nested code should be more specific or handle less probable scenarios than unnested code.
-* _Structure Code into Namespaces by Future_ Keep everything belonging to the same feature together. Don't use namespaces communicating layers. A feature may use another feature; a business feature may use a core feature like logging.
-
-__Conditionals__
-* _Encapsulate Conditionals_ If(this.ShouldBeDeleted(timer)) is preferable to if(timer.HasExpired && !timer.IsRecurrent).
-* _Positive Conditionals_ Positive Conditionals are easier to read than negative conditionals
-
-__Useless Stuff__
-* _Dead Comment, Code_ Delete unused things, you can find them in your version control systems.
-* _Clutter_ Code that is not dead but does not add any functionality.
-* _Inappropriate Information_ Comment holding information better held in a different kind of system: product backlog, Source control. Use code comments for technical notes only.
-
-__Maintainability Killers__
-* _Duplication_ Eliminate Duplication. Violation of the Don't repeat yourself (DRY) principle.
-* _Magic Numbers / Strings_ Replace Magic Numbers and Strings with named constants to give them a meaningful name when meaning cannot be derived from the value itself. 
-* _Enums (Persistent or Defining Behaviour)_ Use reference codes instead of enums if they have to be persisted. Use polymorphism instead of enums if they define behaviour. 
-
-__Exception Handling__
-* _Catch Specific Exceptions_ Catch exceptions as specific as possible. Catch only the exceptions for which you can react in a meaningful manner.
-* _Catch Where You can React in Meaningful Way_ Only catch exceptions when you can react in a meaningful way, Otherwise, let someone up in the call stact react to it.
-* _Use Exceptions instead of Return Codes of null_ In an exceptional case, throw an exception when your method cannot do its job. Don't accept or return null. Don't return error codes.
-* _Fail Fast_ Exceptions should be thrown as early as possible after detecting an exceptional case. This helps to pinpoint the exact location of the problem by looking at the stack trace of the exception.
-* _Using Exceptions for Control Flow_ Using Exceptions for control flow: has bad performance. is hard to understand and results in very hard handling of real execptional cases.
-* _Swallowing Exceptions_ Exceptions can be swallowed only if the exceptional case is completely resolved after leaving the catch block. Otherwise, the system is left in an inconsistent state.
-
-**From Legacy Code to Clean Code**
-* _Always have a Running System_ Change your system in small steps, from a running state to a running state.
- 1. _Identify Features_ Identify the existing features in your code and priortise them according to how relevant they are for future development(likelihood and risk of change). 
- 2. _Introduce Boundary Interfaces for Testability_ Refactor the boundaries of your system to interfaces so that you can  simulate the environment with test doubles(fakes, mocks, stubs, simulators).
- 3. _Write Feature Acceptance Tests_ Cover the feature with Acceptance Tests to establish a safety net for refactoring. 
+#### [Clean code checklist](https://github.com/bhochhi/design-pattern-guide/wiki/clean-code-checklist)
 
  
-[programming principles](http://webpro.github.io/programming-principles)
-
-A
-
-
+#### [programming principles](http://webpro.github.io/programming-principles)
 
 Lightening Thoughts
 ---
@@ -100,15 +24,15 @@ Lightening Thoughts
 #####[The Flyweight Pattern](https://dzone.com/articles/the-flyweight-pattern?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava)
 
 
-###[Variaous Design pattern can be categorized into three groups:](https://github.com/bhochhi/design-pattern-guide/wiki/Various-Design-patterns)
+#### [Variaous Design pattern can be categorized into three groups:](https://github.com/bhochhi/design-pattern-guide/wiki/Various-Design-patterns)
 
-###[Design patterns](https://sourcemaking.com/design_patterns)
+#### [Design patterns](https://sourcemaking.com/design_patterns)
    
    
-###[Data driven Design?](https://github.com/bhochhi/design-pattern-guide/wiki/data-driven-design) 
+#### [Data driven Design?](https://github.com/bhochhi/design-pattern-guide/wiki/data-driven-design) 
 
 
-####[Architecture and Design guide](http://www.tutorialspoint.com/software_architecture_design/)
+##### [Architecture and Design guide](http://www.tutorialspoint.com/software_architecture_design/)
 
 
 
