@@ -1,4 +1,5 @@
 #### [Notes from Software-Architectur: Foundations, Theory and Practice](https://github.com/bhochhi/design-pattern-guide/wiki/Software-Architecture:-Foundations,-Theory,-and-Practice)
+- The practice of architecture-centric development can also enable the creation of cost-effective families of software products that can dominate an application sector over an extended period of time. 
 - 
 
 #### [Microservice design pattern](http://blog.arungupta.me/microservice-design-patterns/)
